@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #d9cbb4;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 48px;
+}
+
+.postcard {
+  width: 360px;
+  height: 240px;
+  background: #f6efe3;
+  margin: 40px auto;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 12px;
+}
+
+.scene {
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(#e9967a, #fbe3c4);
+  position: relative;
+  overflow: hidden;
+  padding: 16px;
+}
+
+.sun {
+  width: 60px;
+  height: 60px;
+  background: #fff6e0;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  box-shadow: 0 0 40px 10px rgba(255, 246, 224, 0.7);
+}
+
+.hills {
+  width: 120%;
+  height: 80%;
+  background: #7a8f6b;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50%;
+  left: -10%;
+}
+
+.greeting {
+  font-family: "Caveat", cursive;
+  font-size: 22px;
+  margin: 0;
+  position: relative;
+z-index: 1;
+}
+
+.place {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 24px;
+  max-width: 60%;
+  margin: 0;
+  position: relative;
+z-index: 1;
+}
